@@ -57,6 +57,7 @@ const createInventoryController = async (req, res) => {
           },
         },
       ]);
+      //mycheckpoint
       const totalOut = totalOutOfRequestedBloodGroup[0]?.total || 0;
 
       //in & Out Calc
