@@ -12,6 +12,7 @@ const registerController = async (req, res) => {
         message: "User ALready exists",
       });
     }
+    //password creation
     const passwordToString = req.body.password.toString()
     //hash password
     const saltRounds= 10;
