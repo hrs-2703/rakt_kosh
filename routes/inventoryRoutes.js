@@ -39,4 +39,9 @@ router.post(
  authmiddleware,
   getInventoryHospitalController
 );
+router.post(
+  "/get-inventory-hospit",
+ authmiddleware,
+  getInventoryHospitalController
+);
 module.exports = router;
